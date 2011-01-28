@@ -4,3 +4,4 @@ log/*.log
 tmp/**/*
 .idea
 Gemfile.lock
+public/stylesheets/compiled/*.css

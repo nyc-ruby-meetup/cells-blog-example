@@ -8,14 +8,17 @@ gem 'RedCloth', :require => "redcloth"
 gem 'cells'
 gem 'acts-as-taggable-on'
 
-group :test do
+group :development, :test do
 #  gem 'cucumber-rails'
-  gem 'capybara'
   gem 'rspec-rails'
   gem 'rspec-cells'
+end
+
+group :test do
+  gem 'capybara'
 #  gem 'launchy'
 end
-  
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

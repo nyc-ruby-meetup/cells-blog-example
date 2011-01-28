@@ -11,7 +11,8 @@ gem 'acts-as-taggable-on'
 group :test do
 #  gem 'cucumber-rails'
   gem 'capybara'
-#  gem 'rspec-rails', '2.0.0.beta.6'
+  gem 'rspec-rails'
+  gem 'rspec-cells'
 #  gem 'launchy'
 end
   
